@@ -5,6 +5,7 @@
 /* Uncomment the initialize the I2C address , uncomment only one, If you get a totally blank screen try the other*/
 #define i2c_Address 0x3c //initialize with the I2C addr 0x3C Typically eBay OLED's
 //#define i2c_Address 0x3d //initialize with the I2C addr 0x3D Typically Adafruit OLED's
+//Portable spectrum analyzer
 
 #define SAMPLES 64// power of 2
 #define SAMPLING_FREQ 24000 // 12 kHz Fmax = sampleF /2 
